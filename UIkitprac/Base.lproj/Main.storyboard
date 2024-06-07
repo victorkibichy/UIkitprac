@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="lbn-5a-iry">
-                                <rect key="frame" x="0.0" y="336.66666666666669" width="393" height="179.00000000000006"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="lbn-5a-iry">
+                                <rect key="frame" x="0.0" y="335.66666666666663" width="393" height="179.00000000000011"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2F-ZV-erD">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="34.333333333333336"/>
