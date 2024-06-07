@@ -23,6 +23,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="34.333333333333336"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Google">
+                                            <backgroundConfiguration key="background"/>
                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleBody"/>
                                             <color key="baseForegroundColor" systemColor="linkColor"/>
                                         </buttonConfiguration>
@@ -40,15 +41,15 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chose How to Sign In 😁" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72P-SA-y7N">
-                                <rect key="frame" x="91" y="153" width="191" height="21"/>
+                                <rect key="frame" x="91" y="153" width="196" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
                         <constraints>
                             <constraint firstItem="lbn-5a-iry" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6wp-cU-prb"/>
                             <constraint firstItem="lbn-5a-iry" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KKO-Kj-9lT"/>
@@ -69,8 +70,8 @@
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
